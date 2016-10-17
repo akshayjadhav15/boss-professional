@@ -7,4 +7,96 @@ and open the template in the editor.
     Created on : 5 Oct, 2016, 6:29:43 PM
     Author     : Admin
 */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #656565;
+}
+.banner{
+    background-image: url('images/header_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 750px;
+    
+}
+.container{
+       padding:200px 40px;
+}
+.logo{
+    
+    width:300px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+nav{
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    background: none;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: 18px 20px;
+    text-transform: uppercase;
+}
+nav li a:hover{
+    color: rgba(255, 255, 255, 0.8);
+}
+.icon{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.inner{
+    margin: 0 273px;
+}
+article{
+    margin: 40px -20px;
+    
+}
+.art-title{
+    line-height: 1em;
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+h3,.art-title{
+    font-weight: 100;
+    font-size: 54px;
+    padding-bottom: 10px;  
+}
+.art-title:after{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    content: "";
+    display: block;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    width: 100px;
+    z-index: 0;
 
+}
+.text{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+    
