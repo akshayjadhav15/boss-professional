@@ -16,7 +16,7 @@ body{
     line-height: 1.7em;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 100;
     color: #656565;
 }
 .banner{
@@ -63,9 +63,9 @@ nav li a:hover{
     font-size: 30px;
 }
 .inner{
-    margin: 0 273px;
+    margin:0 273px;
 }
-article{
+.margin{
     margin: 40px -20px;
     
 }
@@ -98,5 +98,41 @@ h3,.art-title{
     text-align: center;
     margin-bottom: 16px;
 }
+.img2{
+    display: block;
+    margin: auto;
+    max-height: 300px;
+    padding-top: 20px;
+}
+.parallax{
+    background-image:url('images/parallax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.content{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-content{
+    width: 31%;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+    padding:40px 0;    
+}
+.sub-content h2{
+    font-weight:100;
+}
+.icon1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+p{
+    margin-bottom: 16px;
+}
+
 
     
