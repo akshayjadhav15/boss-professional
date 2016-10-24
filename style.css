@@ -66,7 +66,7 @@ nav li a:hover{
     margin:0 273px;
 }
 .margin{
-    margin: 40px -20px;
+    padding: 40px 0;
     
 }
 .art-title{
@@ -169,6 +169,125 @@ p{
    
     
 }
+.parallax-bg3{
+    background-image:url('images/parallax-bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+.art-title1{
+    line-height: 1em;
+    color:rgba(255, 255, 255, 0.9);
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+h3,.art-title1{
+    font-weight: 100;
+    font-size: 32px;
+    padding-bottom: 10px;  
+}
+.art-title1:after{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9); ;
+    content: "";
+    display: block;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    width: 100px;
+    z-index: 0;
+
+}
+.center{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.9);
+    margin-bottom: 16px;
+}
+.button{
+    border:1px solid #ffffff;
+    color:#ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding:9px 15px;
+    background-color:#596372;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color:rgba(53,53,53,0.5);
+}
+.bg-color{
+    background-color:#04070C;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer{
+    width:50%;
+    color:rgba(255, 255, 255, 0.8); 
+}
+.disclaimer a{
+   color:#596372;
+   text-decoration: none;
+  
+}
+.disclaimer a:hover{
+    color: #444;
+}
+
+.disclaimer-title{
+    font-size: 21px;
+}
+
+.img-credits{
+    width:20%;
+    color:rgba(255, 255, 255, 0.8); 
+    
+}
+.img-credits li{
+    list-style: none;
+    border-bottom: 2px solid hsla(0, 0%, 0%, 0.06);
+    padding:8px 0;
+}
+.img-credits a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8); 
+    display: block;
+}
+.img-credits a:hover{
+    color: #444;
+}
+
+.friend{
+    width: 20%;
+    color:rgba(255, 255, 255, 0.8);
+}
+.friend-title,.img-title{
+    font-size: 21px;
+}
+.friend li{
+    list-style: none;
+    border-bottom: 2px solid hsla(0, 0%, 0%, 0.06);
+    padding:8px 0;
+}
+.friend a:hover{
+    color: #444;
+}
+.friend a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.8); 
+    display: block;
+}
+
+
+
+
+
 
 
 
