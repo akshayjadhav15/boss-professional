@@ -19,6 +19,24 @@ body{
     font-weight: 100;
     color: #656565;
 }
+.social{
+    float:right;
+    width: 20%;
+}
+.social a{
+   margin: 0px 1px 0 0;
+}
+.fa1{
+    font-size: 15px;
+    padding:8px;
+    border-right: 1px solid #fff;
+    background-color: grey;
+    color:white;
+}
+.clearfix{
+    clear: both;
+}
+   
 .banner{
     background-image: url('images/header_bg.jpg');
     background-size: cover;
@@ -221,7 +239,7 @@ h3,.art-title1{
     padding-bottom: 10px;  
 }
 .art-title1:after{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.9); ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9); 
     content: "";
     display: block;
     margin-bottom: 25px;
@@ -313,4 +331,16 @@ h3,.art-title1{
     text-decoration: none;
     color:rgba(255, 255, 255, 0.8); 
     display: block;
+}
+@media screen and (max-width:768px)
+{
+   .logo {
+    
+    height: 80px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+ 
+    
+    
 }
